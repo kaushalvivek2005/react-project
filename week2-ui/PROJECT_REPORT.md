@@ -1,10 +1,10 @@
 # 📑 Technical Project Report: Components Props Documentation
 
-**Internship:** YuvaIntern - Web Development [cite: 4]  
-**Submitted By:** Kaushal Kumar [cite: 4]  
-**Registration No:** 24030485005 [cite: 4]  
-**Institution:** BIT Sindri, Jharkhand [cite: 4]  
-**Department:** B.Tech Information Technology (2nd Year) [cite: 4]  
+**Internship:** YuvaIntern - Web Development   
+**Submitted By:** Kaushal Kumar   
+**Registration No:** 24030485005   
+**Institution:** BIT Sindri, Jharkhand  
+**Department:** B.Tech Information Technology (2nd Year) 
 **Submission Date:** June 13, 2026  
 
 ---

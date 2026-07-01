@@ -1,6 +1,3 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import { useEffect, useState } from "react";
 import { fetchPosts } from "./services/api";
 import Error from './components/Error';
@@ -36,6 +33,11 @@ function App() {
   return <Loader />;
   }
 
+  if (error) {
+  return <Error message={error} />;
+  }
+
+
   const filteredPosts = posts.filter((post)=>
   post.title.toLowerCase().includes(search.toLowerCase()) ||
   post.body.toLowerCase().includes(search.toLowerCase())
@@ -51,7 +53,6 @@ function App() {
       setSearch={setSearch}
       />
 
-      {error && <Error message={error} />}
       <div className="posts-container">
         {filteredPosts.length > 0 ? (
           filteredPosts.slice(0,10).map((post) => (
